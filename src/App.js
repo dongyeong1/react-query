@@ -8,6 +8,7 @@ import People from "./components/People";
 import Pagenate from "./components/Pagenate";
 import Dragdrop from "./components/Dragdrop";
 import Input from "./components/Input";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 function App() {
   const [page, setPage] = useState("planets");
@@ -21,7 +22,8 @@ function App() {
         </div>
         {/* <Pagenate></Pagenate> */}
         {/* <Dragdrop></Dragdrop> */}
-        <Input></Input>
+        {/* <Input></Input> */}
+        <InfiniteScroll></InfiniteScroll>
       </div>
     </>
   );
