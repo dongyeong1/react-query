@@ -7,6 +7,7 @@ import Planets from "./components/Planets";
 import People from "./components/People";
 import Pagenate from "./components/Pagenate";
 import Dragdrop from "./components/Dragdrop";
+import Input from "./components/Input";
 
 function App() {
   const [page, setPage] = useState("planets");
@@ -19,7 +20,8 @@ function App() {
           {/* {page === "planets" ? <Planets /> : <People />} */}
         </div>
         {/* <Pagenate></Pagenate> */}
-        <Dragdrop></Dragdrop>
+        {/* <Dragdrop></Dragdrop> */}
+        <Input></Input>
       </div>
     </>
   );
